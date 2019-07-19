@@ -1,13 +1,15 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<bus wx:if="{{PageCur=='bus'}}"></bus>
+<view class="cu-bar tabbar bg-white shadow foot">
+  <view class="action" bindtap="NavChange" data-cur="bus">
+    <view class='cuIcon-cu-image'>
+      <text class="iconfont icon-bus text-gray"></text>
+    </view>
+    <view class="{{PageCur=='bus'?'text-green':'text-gray'}}">公交</view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="action" bindtap="NavChange" data-cur="component">
+    <view class='cuIcon-cu-image'>
+      <image src="/images/tabbar/component{{PageCur=='component'?'_cur':''}}.png"></image>
+    </view>
+    <view class="{{PageCur=='component'?'text-green':'text-gray'}}">组件</view>
   </view>
 </view>

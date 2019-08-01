@@ -36,3 +36,4 @@ nosetests.xml
 /server/cache/pkl
 /server/cache/qr
 /server/api/__pycache__
+.vscode

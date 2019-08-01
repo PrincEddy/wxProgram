@@ -1,1 +1,2 @@
 flask
+-u wxpy -i "https://pypi.doubanio.com/simple/"

@@ -1,4 +1,4 @@
-/server/__pycache__
+/__pycache__
 *.py[cod]
 
 # C extensions
@@ -33,3 +33,5 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+/server/cache/pkl
+/server/cache/qr

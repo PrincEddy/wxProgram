@@ -1,5 +1,5 @@
 <cu-custom bgColor="bg-gradual-pink" >
-	<view slot="content">表单</view>
+	<view slot="content">bus</view>
 </cu-custom>
 <view class="cu-bar bg-white search fixed" style="top:{{CustomBar}}px">
   <view class="search-form round">

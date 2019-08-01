@@ -1,15 +1,16 @@
 <bus wx:if="{{PageCur=='bus'}}"></bus>
+<wechat wx:if="{{PageCur=='wechat'}}"></wechat>
 <view class="cu-bar tabbar bg-white shadow foot">
   <view class="action" bindtap="NavChange" data-cur="bus">
     <view class='cuIcon-cu-image'>
-      <text class="iconfont icon-bus text-gray"></text>
+      <text class="iconfont icon-bus {{PageCur=='bus'?'text-green':'text-gray'}}"></text>
     </view>
-    <view class="{{PageCur=='bus'?'text-green':'text-gray'}}">公交</view>
+    <view class="{{PageCur=='bus'?'text-green':'text-gray'}}">bus</view>
   </view>
-  <view class="action" bindtap="NavChange" data-cur="component">
+  <view class="action" bindtap="NavChange" data-cur="wechat">
     <view class='cuIcon-cu-image'>
-      <image src="/images/tabbar/component{{PageCur=='component'?'_cur':''}}.png"></image>
+        <text class="iconfont icon-wechat {{PageCur=='wechat'?'text-green':'text-gray'}}"></text>
     </view>
-    <view class="{{PageCur=='component'?'text-green':'text-gray'}}">组件</view>
+    <view class="{{PageCur=='wechat'?'text-green':'text-gray'}}">wechat</view>
   </view>
 </view>

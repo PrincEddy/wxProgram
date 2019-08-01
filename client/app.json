@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/bus/index"
+    "pages/bus/index",
+    "pages/wechat/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

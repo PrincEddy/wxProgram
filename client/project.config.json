@@ -22,8 +22,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.2",
-	"appid": "wxd6eabfc9d54ec679",
-	"projectname": "ColorUI-template",
+	"appid": "wxf37cc0230aa0cbc1",
+	"projectname": "wxProgram-client",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

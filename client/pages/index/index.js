@@ -1,6 +1,6 @@
 Page({
   data: {
-    PageCur: 'bus'
+    PageCur: 'wechat'
   },
   options: {
     addGlobalClass: true,
@@ -12,7 +12,7 @@ Page({
   },
   onShareAppMessage() {
     return {
-      title: 'ColorUI-高颜值的小程序UI组件库',
+      title: '等车咯',
       imageUrl: '/images/share.jpg',
       path: '/pages/index/index'
     }

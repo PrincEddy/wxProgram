@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "bus": "/pages/bus/index"
+    "bus": "/pages/bus/index",
+    "wechat": "/pages/wechat/index"
   }
 }
